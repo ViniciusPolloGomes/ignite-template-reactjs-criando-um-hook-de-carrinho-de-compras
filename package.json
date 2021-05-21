@@ -23,11 +23,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts start ",
+    "build": "yarn run build react-scripts build  & yarn global add serve & serve -s build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "npm run json-server server.json -p 3333"
+    "eject": "react-scripts eject"    
   },
   "browserslist": {
     "production": [
