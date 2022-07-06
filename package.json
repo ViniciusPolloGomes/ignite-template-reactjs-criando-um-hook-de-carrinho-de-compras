@@ -29,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server server.json -p 3333"
+    "server": "json-server -w -p 3333 ./server.json"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^5.1.0",
@@ -51,9 +51,9 @@
       "maintained node versions"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "defaults",
+      "not IE 11",
+      "maintained node versions"
     ]
   }
 }
